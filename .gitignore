@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# nextflow trace logs
+trace*.txt
+
+# DRAM output folder2
+DRAM2_output/
+work/
+
+# Visualization Output Files
+product.html
+product.tsv
+
+# Singularity images
+containers/*.sif
+# Saved Docker images and compressed images
+containers/*.tar
+containers/*.tar.gz
+
+test_data/
+output/
+nextflow-LOCAL.config
+.nextflow.log*
+.nextflow/history
+.Rhistory
+.nextflow*
+databases/
+assets/forms/kofam*
+assets/forms/*hmm*
+assets/bbmap/*
+assets/bbmap
+assets/bbmap/
+.vscode
+nextflow-local.config
+
+# scratch folder
+scratch/
